@@ -9,6 +9,9 @@
 #include "common/base/Base.h"
 #include "common/context/ExpressionContext.h"
 #include "common/expression/Expression.h"
+#include "storage/exec/IndexEdgeNode.h"
+#include "storage/exec/IndexScanNode.h"
+#include "storage/exec/IndexVertexNode.h"
 #include "storage/exec/RelNode.h"
 
 namespace nebula {

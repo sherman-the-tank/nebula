@@ -7,6 +7,7 @@
 #define STORAGE_EXEC_INDEXEDGENODE_H_
 
 #include "common/base/Base.h"
+#include "storage/exec/IndexScanNode.h"
 #include "storage/exec/RelNode.h"
 
 namespace nebula {

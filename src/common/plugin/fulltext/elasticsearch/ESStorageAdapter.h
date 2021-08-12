@@ -7,8 +7,9 @@
 #ifndef NEBULA_PLUGIN_ESSTORAGEADAPTER_H
 #define NEBULA_PLUGIN_ESSTORAGEADAPTER_H
 
-#include <gtest/gtest.h>
+#include <gtest/gtest_prod.h>
 
+#include "common/base/StatusOr.h"
 #include "common/plugin/fulltext/FTStorageAdapter.h"
 
 namespace nebula {

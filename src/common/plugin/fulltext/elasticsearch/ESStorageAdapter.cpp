@@ -6,8 +6,7 @@
 
 #include "common/plugin/fulltext/elasticsearch/ESStorageAdapter.h"
 
-#include <common/plugin/fulltext/FTUtils.h>
-
+#include "common/plugin/fulltext/FTUtils.h"
 #include "common/process/ProcessUtils.h"
 
 namespace nebula {

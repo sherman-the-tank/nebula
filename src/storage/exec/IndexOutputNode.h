@@ -7,6 +7,10 @@
 #define STORAGE_EXEC_INDEXOUTPUTNODE_H_
 
 #include "common/base/Base.h"
+#include "storage/exec/IndexEdgeNode.h"
+#include "storage/exec/IndexFilterNode.h"
+#include "storage/exec/IndexScanNode.h"
+#include "storage/exec/IndexVertexNode.h"
 #include "storage/exec/RelNode.h"
 
 namespace nebula {

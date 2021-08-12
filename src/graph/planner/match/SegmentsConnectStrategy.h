@@ -10,6 +10,9 @@
 namespace nebula {
 namespace graph {
 
+class PlanNode;
+class QueryContext;
+
 class SegmentsConnectStrategy {
  public:
   explicit SegmentsConnectStrategy(QueryContext* qctx) : qctx_(qctx) {}

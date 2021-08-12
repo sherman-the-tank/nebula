@@ -8,6 +8,7 @@
 #define COMMON_UTILS_UTILS_H_
 
 #include "common/base/Base.h"
+#include "common/datatypes/HostAddr.h"
 
 namespace nebula {
 class Utils final {
