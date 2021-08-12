@@ -14,16 +14,16 @@ namespace nebula {
 namespace plugin {
 
 class FTStorageAdapter {
-public:
-    virtual ~FTStorageAdapter() = default;
+ public:
+  virtual ~FTStorageAdapter() = default;
 
-    virtual StatusOr<bool> put(const HttpClient& client, const DocItem& item) const = 0;
+  virtual StatusOr<bool> put(const HttpClient& client, const DocItem& item) const = 0;
 
-    virtual StatusOr<bool> bulk(const HttpClient& client,
-                                const std::vector<DocItem>& items) const = 0;
+  virtual StatusOr<bool> bulk(const HttpClient& client,
+                              const std::vector<DocItem>& items) const = 0;
 
-protected:
-    FTStorageAdapter() = default;
+ protected:
+  FTStorageAdapter() = default;
 };
 
 }  // namespace plugin
